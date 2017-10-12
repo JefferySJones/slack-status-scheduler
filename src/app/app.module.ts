@@ -4,7 +4,6 @@ import { environment } from '../environments/environment';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { AuthService } from './shared/auth.service';
 
 @NgModule({
   declarations: [
@@ -14,7 +13,7 @@ import { AuthService } from './shared/auth.service';
     BrowserModule,
     HttpClientModule,
   ],
-  providers: [AuthService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
