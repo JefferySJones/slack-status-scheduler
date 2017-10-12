@@ -1,0 +1,105 @@
+.main-app, header {
+    padding: 20px;
+}
+
+header {
+    text-align: right;
+    padding-top: 21px;
+    border-bottom: 3px solid #0F7D99;
+}
+
+.user-status {
+    display: inline-block;
+}
+.user-status ul {
+    display: table;
+}
+.user-status li {
+    display: table-cell;
+    padding-left: 15px;
+}
+.user-status li:nth-child(1) {
+    padding-left: 0;
+}
+
+.user-status li a {
+    cursor: hand;
+    cursor: pointer;
+}
+
+.user-events {
+
+}
+.user-events li {
+    padding: 5px;
+}
+
+.user-event {
+    display: table;
+}
+.user-event > div {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.google-authorize {
+
+}
+
+.google-login-btn {
+    display: inline-block;
+    background: #00A5CE;
+    color: #E8EFF2;
+    padding: 10px 30px 10px 30px;
+    border-radius: 6px;
+    border: 3px solid #0F7D99;
+    font-size: 16px;
+    white-space: nowrap;
+    cursor: pointer;
+    cursor: hand;
+    transition: all 0.2s;
+}
+.google-login-btn:hover {
+    background: #0F7D99;
+}
+
+.google-login-btn:disabled {
+    cursor: not-allowed;
+    color: #0F7D99;
+}
+
+.user-event .icon-container {
+    width: 35px;
+    height: 35px;
+    border: 3px solid #0F7D99;
+    background: rgba(4,126,154, 0.5);
+    border-radius: 6px;
+    cursor: pointer;
+    cursor: hand;
+}
+.user-event .icon-container:hover {
+    background: rgba(4,126,154, 0.8);
+}
+.user-event .icon-container--pink {
+    border: 3px solid #EF5378;
+    background: rgba(241, 80,118, 0.5);
+}
+.user-event .icon-container--pink:hover {
+    background: rgba(241, 80,118, 0.8);
+}
+.icon-helptext {
+    font-size: 10px;
+    padding-top: 5px;
+    text-align: center;
+}
+.icon-container i {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.icon-spiral_calendar_pad {
+    background: url(https://a.slack-edge.com/bfaba/img/emoji_2016_06_08/sheet_apple_64_indexed_256colors.png);
+    background-position: 65% 12.5%;
+    background-size: 4100%;
+}
